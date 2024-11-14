@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container creatAccount-container">
+            <form action="#">
+                <h1>Criar conta</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou use seu E-mail para registrar-se</span>
+
+                <label for="name1"></label>
+                <input type="text" placeholder="Name" name="name1" id="name1" />
+            
+                <label for="email1"></label>
+                <input type="email" placeholder="Email" name="email1" id="email1" />
+            
+                <label for="password1"></label>
+                <input type="password" placeholder="Password" name="password1" id="password1" />
+
+                <button>Criar conta</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Conectar-se</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou use sua conta</span>
+
+                <label for="email2"></label>
+                <input type="email" placeholder="Email" name="email2" id="email2" />
+
+                <label for="password2"></label>
+                <input type="password" placeholder="Password" name="password2" id="password2" />
+
+                <a href="#">Forgot your password?</a>
+                <button>Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Efetuar Login</h1>
+                    <p>Se você já possui conta, clique aqui para efetuar Login</p>
+                    <button class="ghost" id="signIn">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Criar conta!</h1>
+                    <p>Preencha suas informações pessoais e comece essa jornada conosco!</p>
+                    <button class="ghost" id="signUp">Criar conta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
